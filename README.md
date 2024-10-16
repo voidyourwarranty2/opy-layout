@@ -20,9 +20,9 @@ keyboard. This is the alphabetic layer that contains the 26 letters `A` to `Z` a
 
 The home positions of the index fingers are `I` and `T`; those of the thumbs are shift and space.
 
-For the design of the alphabetical layer, using a custom layout optimizer, please take a look at the [Details of the
+For the design of the alphabetical layer by a custom layout optimizer, please take a look at the [Details of the
 Alphabetical OPY Layer](alphabetical.md). Compared with that optimization result, the keys `Q` and `ß` were moved from
-the top row to the sides of the middle row because my fingers are short, and that position is more convenient.1
+the top row to the sides of the middle row because my fingers are short, and that position is more convenient.
 
 ## Physical Properties
 
@@ -92,11 +92,12 @@ For more details on home row mods, please take a look at precondition's
 ![Number Layer](layout-num.svg)
 
 All keys that have been left empty in the diagram retain their function from the base layer. If held longer, the
-asterisk gives a caret, the minus sign an apostrophe, and the decimal point a comma. These are examples of "lingering
-keys", see below. They are realized by the `hold-tap` behaviour of ZMK which I have configured in such a way that it
-order to get key repeat (which is done by the operating system of the computer rather than by the keyboard) by tapping
-and then holding them in rapid succession. If the hold succeeds the tap quickly enough the `hold-tap` issues a second
-tap whose key is then not released so that the operating system will trigger the key repeat function.
+asterisk gives a caret, the minus sign an apostrophe, and the decimal point a comma. These are examples of *lingering
+keys*. They are implemented by the `hold-tap` behaviour of ZMK which I have configured in such a way that in order to
+get key repeat (which is done by the operating system of the computer rather than by the keyboard), I first tap and
+then, in rapid succession, press and hold the key. The `hold-tap` behaviour of ZMK is configured to suppress the hold
+function in this case and therefore issues a second, long tap. This allows the operating system to trigger the key
+repeat function.
 
 The tilde on this layer is non-dead, i.e. it displays immediately.
 
@@ -152,7 +153,7 @@ adaptive keys of the OPY layout.
 
 ## Lingering Keys
 
-Apart from the lingering keys of the Number Layer above, the following lingering keys are convenient. When the keys of
+Apart from the lingering keys of the Number Layer, the following lingering keys are convenient. When the keys of
 the opening brackets `(`, `[`, `{` and `<` are held a bit longer, their closing counterpart is added automatically and
 the cursor placed between the brackets.
 
@@ -162,14 +163,15 @@ produced.
 
 ## Combos and the Most Frequent Words
 
-Up to this point, we have not yet made use of key combinations, i.e. two keys are pressed simultaneously (within 50
-ms). Interestingly, when I type it, this is rarely misinterpreted as one of the hold-taps, and so I can use combinations
-independently. Presently, I am trying combos in order to produce the 10 most frequent words it both English and
-German. When the combination is pressed simultaneously, the corresponding word including a subsequent [Space] is
-issued. Together with the one-shot shift, these words can be capitalized. When [Shift] is held all the time, they appear
-in uppercase letters:
+Up to this point, we have not yet made use of key combinations, i.e. that two keys are pressed simultaneously (within 50
+ms). Interestingly, when I type, this is rarely misinterpreted as one of the hold-taps, and so I can use combinations
+independently.
 
-|Combination|Word|
+Presently, I am trying combos in order to produce the 10 most frequent words in both English and German. When the combo
+is pressed, the corresponding word including a subsequent space is issued. If preceded by a one-shot shift, these words
+are capitalized. When shift is held all the time, they appear entirely in uppercase letters:
+
+|combination|word|
 |---|---|
 |TH|the|
 |OF|of|
@@ -184,7 +186,7 @@ in uppercase letters:
 
 as well as for the German words,
 
-|Combination|Word|
+|combination|word|
 |---|---|
 |DE|der|
 |DI|die|
@@ -199,7 +201,7 @@ as well as for the German words,
 
 ## ZMK Implementation
 
-In order to use this layout with the [ZMK](https://zmk.dev), you need to select the *English (US, international, with
+In order to use this layout with [ZMK](https://zmk.dev), you need to select the *English (US, international, with
 dead keys)* keyboard layout on your computer.
 
 Note that as of October 2024, the official release of ZMK needs to be extended by the following patches for the present

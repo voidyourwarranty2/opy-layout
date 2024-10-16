@@ -125,12 +125,13 @@ adding too many competing terms to it.
 
 ![Base Layer](layout-alphabetical.svg)
 
-Running this optimizer starting with any layout inspired by the `NEO` family tends to concentrate the vowels on one hand
-and the most frequent consonants on the other. This separation is very consistent as long as only German is
-considered. As soon as a sufficient amount on English is added, however, the letter 'H' begins to act as a vowel, and it
-becomes as frequent or more as 'O' and 'U'. This classification of 'H' as a vowel happens because of frequency and also
-because the typical bigrams involving 'H' and an important consonant are similar to the bigrams involving an actual
-vowel and the consonant. If 'H' is treated like a vowel, one of the actual vowels needs to leave the home row though.
+Running this optimizer starting with any layout inspired by the `NEO` family tends to concentrate the vowels on the home
+row of one hand and the most frequent consonants on the home row of the other. This separation is very consistent as
+long as only German is considered. As soon as a sufficient amount on English is added, however, the letter 'H' begins to
+act as a vowel, and it becomes as frequent or more as 'O' and 'U'. This classification of 'H' as a vowel happens because
+of frequency and also because the typical bigrams involving 'H' and an important consonant are similar to the bigrams
+involving an actual vowel and the consonant. If 'H' is treated like a vowel, one of the actual vowels needs to leave the
+home row though.
 
 Depending on the ratio of English to German, either 'U' is more frequent than 'O' (if German dominates) or vice versa
 (if English dominates). With my 50%/50% mixture of English and German, 'O' is already more frequent. Interestingly, it
@@ -315,7 +316,7 @@ The following is an incomplete list of resources I took a look at when I develop
 
 - [RSTHD](https://xsznix.wordpress.com/2016/05/16/introducing-the-rsthd-layout/) with a letter on a thumb key
 
-- [T34](https://www.jonashietala.se/blog/2021/06/03/the-t-34-keyboard-layout/) with a letter on a thumb key
+- [T34](https://www.jonashietala.se/blog/2021/06/03/the-t-34-keyboard-layout/) with a letter on a thumb key, emphasis also on Swedish and on vim.
 
 - [The Symmetric Typing Project](https://kennetchaz.github.io/symmetric-typing/), *Soul* and *Niro*
 
