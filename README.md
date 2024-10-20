@@ -81,7 +81,9 @@ Once shift has been placed on a thumb key, I found it inconvenient to control th
 because editing code requires frequent switching between alphabetic, number, symbol and navigation keys, and this would
 lead to too many same-thumb bigrams. Hence the decision to implement the layer switches as home row modifiers.
 
-If held longer, tab yields back-tab. Shift backspace gives delete, and shift `ß` gives `§`.
+If held longer, tab yields back-tab. Shift backspace gives delete, and shift `ß` gives `§`. Further, holing backspace or
+shift-backspace a bit longer issues [Alt]+[Backspace] or [Ctrl]+[Del], respectively, the Emacs key combinations for
+deleting the previous or the subsequent word. These are examples of lingering keys.
 
 For more details on home row mods, please take a look at precondition's
 [guide](https://precondition.github.io/home-row-mods). Another good reference on the use of layers and modifiers is the
