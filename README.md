@@ -201,6 +201,11 @@ as well as for the German words,
 |MI|mit|
 |SI|sich|
 
+## Editing Combos
+
+* Tapping `Tab` and `Backspace` issues the Emacs key code for deleting the remainder of the line. Tapping `Esc` end
+  `Backspace` the key code for deleting the entire line.
+
 ## ZMK Implementation
 
 In order to use this layout with [ZMK](https://zmk.dev), you need to select the *English (US, international, with
