@@ -155,9 +155,9 @@ adaptive keys of the OPY layout.
 
 ## Lingering Keys
 
-Apart from the lingering keys of the Number Layer, the following lingering keys are convenient. When the keys of
-the opening brackets `(`, `[`, `{` and `<` are held a bit longer, their closing counterpart is added automatically and
-the cursor placed between the brackets.
+Apart from the lingering function on the backspace/delete key end on the Number Layer, the following lingering keys are
+convenient. When the keys of the opening brackets `(`, `[`, `{` and `<` are held a bit longer, their closing counterpart
+is added automatically and the cursor placed between the brackets.
 
 When `q` is pressed, the keyboard rather produces `qu`, and depending on whether shift is not held, held briefly or held
 the entire time, it produces the variants `qu`, `Qu` or `QU`. Only if the key `q` is held longer, a single `q` or `Q` is
