@@ -222,3 +222,18 @@ layout to function:
 For the configuration of ZMK's `hold-tap` function, I largely followed urob's [Timeless Home Row Mods](https://github.com/urob/zmk-config).
 
 This is all done in the `devel-yackboard` branch of my [inofficial fork](https://github.com/voidyourwarranty2/zmk/tree/devel-yackboard) of ZMK.
+
+## References
+
+References for the optimization of the alphabetical layer can be found in the respective [Section](alphabetical.md). For
+the choice of layers and modifier keys, I recommend the following:
+
+- [A Guide To Home Row Mods](https://precondition.github.io/home-row-mods) on the Precondition blog.
+
+- [The Miryoku Layout](https://github.com/manna-harbour/miryoku) on the use of layers and home row modifiers
+
+- [Urob's 7onfiguration Of ZMK](https://github.com/urob/zmk-config) on home row modifiers, timing issues and on key combinations.
+
+- [You Won't Believe How Effective This Keyboard Layout Is](https://www.youtube.com/watch?v=8wZ8FRwOzhU) (Youtube video by Ben Vallack)
+
+- [Has Your Keyboard Got Too Many Keys](https://www.youtube.com/watch?v=5RN_4PQ0j1A) (Youtube video by Ben Vallack)
