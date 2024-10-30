@@ -228,11 +228,11 @@ This is all done in the `devel-yackboard` branch of my [inofficial fork](https:/
 References for the optimization of the alphabetical layer can be found in the respective [Section](alphabetical.md). For
 the choice of layers and modifier keys, I recommend the following:
 
-- [A Guide To Home Row Mods](https://precondition.github.io/home-row-mods) on the Precondition blog.
+- [A Guide To Home Row Mods](https://precondition.github.io/home-row-mods) on the Precondition blog,
 
-- [The Miryoku Layout](https://github.com/manna-harbour/miryoku) on the use of layers and home row modifiers
+- [The Miryoku Layout](https://github.com/manna-harbour/miryoku) on the use of layers and home row modifiers,
 
-- [Urob's 7onfiguration Of ZMK](https://github.com/urob/zmk-config) on home row modifiers, timing issues and on key combinations.
+- [Urob's Configuration Of ZMK](https://github.com/urob/zmk-config) on home row modifiers, timing issues and on key combinations,
 
 - [You Won't Believe How Effective This Keyboard Layout Is](https://www.youtube.com/watch?v=8wZ8FRwOzhU) (Youtube video by Ben Vallack)
 
